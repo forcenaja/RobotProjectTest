@@ -8,7 +8,7 @@ ${browser}  chrome
 *** Test Cases ***
 User must sign in to check out
     [Documentation]  This is some basic info about the test
-    [Tags]  Test
+    [Tags]  smoke
     Open Browser  http://www.amazon.com  ${browser}
     Wait Until Element Is Enabled  id=twotabsearchtextbox
     Input Text  id=twotabsearchtextbox  Ferrari 458
