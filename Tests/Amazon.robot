@@ -13,7 +13,7 @@ User must sign in to check out
     Maximize Browser Window
     Wait Until Element Is Enabled  id=twotabsearchtextbox
     Input Text  id=twotabsearchtextbox  Ferrari 458
-    Click Button  id=nav-search-submit-button
+    Click Button  id=nav-search-submit-butto
     Wait Until Page Contains  results for "Ferrari 458"
     Close Browser
 *** Keywords ***
